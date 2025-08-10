@@ -41,7 +41,7 @@ Make sure you have **Python 3.8** or newer installed on your system.
 
 1.  Clone the repository:
     ```
-    git clone https://github.com/your-username/Smart-AI-Assistant.git
+    git clone https://github.com/RenisideOfficial/Smart-AI-Assistant.git
     cd Smart-AI-Assistant
     ```
 2.  Install the necessary dependencies:
