@@ -3,8 +3,6 @@ import cv2
 
 # Check if files exist
 print("yolov8m.pt exists:", os.path.exists("yolov8m.pt"))
-print("yolov4.weights exists:", os.path.exists("yolov4.weights"))
-print("coco.names exists:", os.path.exists("coco.names"))
 
 # Try reading the config file
 try:

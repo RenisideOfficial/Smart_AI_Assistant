@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 import threading
-import time
 
 class AssistantGUI:
     def __init__(self, assistant):

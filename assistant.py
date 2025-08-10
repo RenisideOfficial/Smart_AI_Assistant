@@ -8,13 +8,11 @@ import datetime
 import wikipedia
 import pyjokes
 import pyautogui
-import requests
 import speech_recognition as sr
-# from tqdm import tk
 from weather import Weather
 from camera import Camera
 from object_detection import ObjectDetection
-from assistant_gui import AssistantGUIs
+from assistant_gui import AssistantGUI
 
 class FridayAssistant:
     def __init__(self):
@@ -28,7 +26,7 @@ class FridayAssistant:
         self.weather = Weather(self.engine)  # Weather service
         self.camera = Camera(self.engine)  # Camera service
         self.object_detection = ObjectDetection(self.engine)  # Object detection service
-        self.gui = AssistantGUIs(self)  # GUI
+        self.gui = AssistantGUI(self)  # GUI
         self.recognizer = sr.Recognizer()  # Speech recognition
         self.app_paths = {
             "camera": "path_to_camera_app",  # Replace with actual path
