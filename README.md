@@ -1,4 +1,6 @@
+```
 Smart AI Assistant for Visually Impaired People using OpenCV
+```
 
 📌 Project Overview
 
@@ -41,12 +43,12 @@ Machine Learning (if used): TensorFlow/PyTorch (for object detection)
 📂 Project Structure
 
 Smart-AI-Assistant/
-│-- assistant.py  # Main AI assistant logic
-│-- assistant_gui.py  # GUI interface
-│-- object_detection.py  # OpenCV-based object detection
-│-- weather.py  # Fetches weather updates
-│-- requirements.txt  # Dependencies
-│-- README.md  # Documentation
+│-- assistant.py # Main AI assistant logic
+│-- assistant_gui.py # GUI interface
+│-- object_detection.py # OpenCV-based object detection
+│-- weather.py # Fetches weather updates
+│-- requirements.txt # Dependencies
+│-- README.md # Documentation
 
 🛠️ Installation
 
@@ -88,4 +90,4 @@ Feel free to fork, submit issues, or contribute to this project!
 
 For queries, reach out via GitHub Issues.
 
-Mail:madesh61waran@gmail.com
+Mail:chinweikeprince95@gmail.com
